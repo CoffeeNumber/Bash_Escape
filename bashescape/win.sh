@@ -4,5 +4,5 @@
 #!/bin/bash
 clear
 
-cat win.txt && sleep 4 
-return
+cat win.txt
+sh ./score.sh

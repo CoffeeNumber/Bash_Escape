@@ -28,7 +28,6 @@ echo "| '---' '---' '---' | |"
 echo ".  This is not ATM  . ."
 echo " \_________________/_/"
 echo " "
-echo "Every wrong pin code will reduce your total amount of points by -10%"
 }
  
 read_options() {
@@ -62,5 +61,5 @@ do
 	then
 		break
 	fi
+
 done
-                   

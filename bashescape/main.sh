@@ -137,7 +137,7 @@ pause(){
 
 room(){
 	sh ./room.sh
-		pause
+	echo -e "{$NORMAL}" && clear && exit 0
 }
 
 tutorial(){
@@ -157,4 +157,8 @@ while true
 do
 	mainmenu
 	read_options
+	if [ "$choice" -eq 1 ]
+	then
+		break		
+	fi
 done

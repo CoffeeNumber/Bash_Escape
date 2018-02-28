@@ -76,6 +76,14 @@ read_options() {
 #  Functions
 #'----------'
 
+#room.sh tiedostoon, eli alkaa kun peli alkaa.
+startpoint(){
+	day=$(date +%s)
+	day=$((1000*$day))
+	echo $day > score.txt
+	#echo $day #FOR TEST USE
+}
+
 chair(){
 	sh ./chair.sh
 		pause
@@ -98,6 +106,7 @@ fireplace() {
 
 enter_pin() {
 	sh ./pin.sh
+		pause
 }
 
 #.----------------------.
@@ -106,6 +115,7 @@ enter_pin() {
 while true
 do
 	room_menu
+	startpoint
 	read_options
 	if [ "$choice" -eq 6 ]
 	then
