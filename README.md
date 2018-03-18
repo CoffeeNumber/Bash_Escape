@@ -17,3 +17,6 @@ and add inside read_options:
 5) echo -e "{$NORMAL}" && clear && exit 0 ;;
 
 then you can see top10 list inside the game also.
+
+Known bugs:
+* when winning the game, it will return to main menu (as it should), but then if you exit game, you will return back to previous game room view.
