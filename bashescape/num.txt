@@ -1,10 +1,10 @@
 1300000 AAA<br />
 1200000 BBB<br />
+1112000 MysteeriPelaaja<br />
 1100000 CCC<br />
 1000000 DDD<br />
 900000 EEE<br />
 800000 FFF<br />
-700000 GGG<br /> 
+700000 GGG<br />
 600000 HHH<br />
 500000 III<br />
-400000 JJJ<br />
